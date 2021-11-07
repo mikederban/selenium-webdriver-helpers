@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>webdriver-helpers</artifactId>
-        <groupId>org.example.selenium.webhelper</groupId>
+        <groupId>io.github.mikederban.selenium.webhelper</groupId>
         <version>1.0.0</version>
     </parent>
 
@@ -66,20 +66,19 @@
             <version>3.21.0</version>
         </dependency>
         <dependency>
-            <groupId>org.example.selenium.webhelper</groupId>
+            <groupId>io.github.mikederban.selenium.webhelper</groupId>
             <artifactId>webdriver-chrome</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
-            <groupId>org.example.selenium.webhelper</groupId>
+            <groupId>io.github.mikederban.selenium.webhelper</groupId>
             <artifactId>webdriver-edge</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
-            <groupId>org.example.selenium.webhelper</groupId>
+            <groupId>io.github.mikederban.selenium.webhelper</groupId>
             <artifactId>webdriver-ie</artifactId>
             <version>1.0.0</version>
         </dependency>
-
     </dependencies>
 </project>

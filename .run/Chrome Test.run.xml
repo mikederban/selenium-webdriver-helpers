@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Chrome Test" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="org.example.selenium.webhelper.ChromeTest" />
+    <option name="MAIN_CLASS_NAME" value="io.github.mikederban.selenium.webhelper.ChromeTest" />
     <module name="webdriver-tests" />
     <method v="2">
       <option name="Make" enabled="true" />

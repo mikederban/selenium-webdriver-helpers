@@ -6,15 +6,12 @@
 
   <parent>
     <artifactId>webdriver-helpers</artifactId>
-    <groupId>org.example.selenium.webhelper</groupId>
+    <groupId>io.github.mikederban.selenium.webhelper</groupId>
     <version>1.0.0</version>
   </parent>
 
   <artifactId>webdriver-edge</artifactId>
   <version>1.0.0</version>
-
-  <!-- Descriptive name: Webdriver initialization for edge browser -->
-  <name>webdriver-edge</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -101,7 +98,7 @@
 
     <!-- cross-module dependency! -->
     <dependency>
-      <groupId>org.example.selenium.webhelper</groupId>
+      <groupId>io.github.mikederban.selenium.webhelper</groupId>
       <artifactId>webdriver-utils</artifactId>
       <version>1.0.0</version>
     </dependency>

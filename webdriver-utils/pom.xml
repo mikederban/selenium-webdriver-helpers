@@ -6,15 +6,12 @@
 
   <parent>
     <artifactId>webdriver-helpers</artifactId>
-    <groupId>org.example.selenium.webhelper</groupId>
+    <groupId>io.github.mikederban.selenium.webhelper</groupId>
     <version>1.0.0</version>
   </parent>
 
   <artifactId>webdriver-utils</artifactId>
   <version>1.0.0</version>
-
-  <!-- Descriptive name: Webdriver utilities -->
-  <name>webdriver-utils</name>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -42,7 +39,7 @@
               <archive>
                 <manifest>
                   <addClasspath>true</addClasspath>
-                  <mainClass>org.example.selenium.webhelper.WebDriverHelper</mainClass>
+                  <mainClass>io.github.mikederban.selenium.webhelper.WebDriverHelper</mainClass>
                 </manifest>
               </archive>
               <descriptorRefs>
