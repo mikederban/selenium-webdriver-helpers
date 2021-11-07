@@ -8,7 +8,9 @@
   <artifactId>webdriver-helpers</artifactId>
   <version>1.0.0</version>
 
-  <name>WebDriver helpers</name>
+  <name>Selenium WebDriver helpers</name>
+  <description>Selenium WebDriver helpers for testing automation</description>
+  <url>https://github.com/mikederban/selenium-webdriver-helpers</url>
   <packaging>pom</packaging>
 
   <scm>
