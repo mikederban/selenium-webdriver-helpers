@@ -50,7 +50,7 @@ public final class WindowsProcessTerminator {
                 });
       } catch (IOException e) {
         LOGGER.error(String.format("Error reading output from process %s!", name), e);
-      } finally{
+      } finally {
         process.destroy();
       }
     }
@@ -91,7 +91,7 @@ public final class WindowsProcessTerminator {
         } catch (InterruptedException e) {
           LOGGER.error(String.format("Failed to terminate process %s!", processName), e);
           Thread.currentThread().interrupt();
-        } finally{
+        } finally {
           process.destroy();
         }
       }
