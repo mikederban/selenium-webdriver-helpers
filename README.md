@@ -28,7 +28,7 @@ specify which version to use, or go with the default version, which is the lates
 ```java
 ChromeDriverHelper chromeDriver = new ChromeDriverHelper();
 chromeDriver.initialize();
-WebDriver driver=chromeDriver.getDriver();
+WebDriver driver = chromeDriver.getDriver();
 ```
 
 ### Edge WebDriver ###
@@ -44,7 +44,7 @@ WebDriver driver=chromeDriver.getDriver();
 ```java
 EdgeDriverHelper edgeDriver = new EdgeDriverHelper();
 edgeDriver.initialize();
-WebDriver driver=edgeDriver.getDriver();
+WebDriver driver = edgeDriver.getDriver();
 ```
 
 ### Internet Explorer WebDriver ###
@@ -60,7 +60,7 @@ WebDriver driver=edgeDriver.getDriver();
 ```java
 IEDriverHelper ieDriver = new IEDriverHelper();
 ieDriver.initialize();
-WebDriver driver=ieDriver.getDriver();
+WebDriver driver = ieDriver.getDriver();
 ```
 
 ## Default WebDriver configuration ##
