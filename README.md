@@ -26,9 +26,9 @@ specify which version to use, or go with the default version, which is the lates
 ```
 
 ```java
-ChromeDriverHelper chromeDriver=new ChromeDriverHelper();
+ChromeDriverHelper chromeDriver = new ChromeDriverHelper();
 chromeDriver.initialize();
-WebDriver driver=chromeDriver.getDriver();
+WebDriver driver = chromeDriver.getDriver();
 ```
 
 ### Edge WebDriver ###
@@ -42,9 +42,9 @@ WebDriver driver=chromeDriver.getDriver();
 ```
 
 ```java
-EdgeDriverHelper edgeDriver=new EdgeDriverHelper();
+EdgeDriverHelper edgeDriver = new EdgeDriverHelper();
 edgeDriver.initialize();
-WebDriver driver=edgeDriver.getDriver();
+WebDriver driver = edgeDriver.getDriver();
 ```
 
 ### Internet Explorer WebDriver ###
@@ -58,9 +58,9 @@ WebDriver driver=edgeDriver.getDriver();
 ```
 
 ```java
-IEDriverHelper ieDriver=new IEDriverHelper();
+IEDriverHelper ieDriver = new IEDriverHelper();
 ieDriver.initialize();
-WebDriver driver=ieDriver.getDriver();
+WebDriver driver = ieDriver.getDriver();
 ```
 
 ## Default WebDriver configuration ##
@@ -143,22 +143,22 @@ custom target directory, if necessary:
 
 ```java
 File downloadDir=new File("c:\\temp");
-    ChromeDriverHelper chromeDriver=new ChromeDriverHelper(downloadDir);
+ChromeDriverHelper chromeDriver=new ChromeDriverHelper(downloadDir);
 ```
 
 You can use pre-packaged properties file, or specify a custom one.
 
 ```java
 String propsName="C:\\projects\\driver-config\\chrome-driver.properties";
-    ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName);
+ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName);
 ```
 
 A custom properties file and a custom download directory:
 
 ```java
 String propsName="C:\\projects\\driver-config\\chrome-driver.properties";
-    File downloadDir=new File("C:\\temp");
-    ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName,downloadDir);
+File downloadDir=new File("C:\\temp");
+ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName,downloadDir);
 ```
 
 Happy testing!
