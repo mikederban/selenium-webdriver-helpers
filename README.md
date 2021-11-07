@@ -143,22 +143,22 @@ custom target directory, if necessary:
 
 ```java
 File downloadDir=new File("c:\\temp");
-    ChromeDriverHelper chromeDriver=new ChromeDriverHelper(downloadDir);
+ChromeDriverHelper chromeDriver=new ChromeDriverHelper(downloadDir);
 ```
 
 You can use pre-packaged properties file, or specify a custom one.
 
 ```java
 String propsName="C:\\projects\\driver-config\\chrome-driver.properties";
-    ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName);
+ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName);
 ```
 
 A custom properties file and a custom download directory:
 
 ```java
 String propsName="C:\\projects\\driver-config\\chrome-driver.properties";
-    File downloadDir=new File("C:\\temp");
-    ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName,downloadDir);
+File downloadDir=new File("C:\\temp");
+ChromeDriverHelper chromeDriver=new ChromeDriverHelper(propsName,downloadDir);
 ```
 
 Happy testing!
