@@ -11,11 +11,45 @@
   <name>Parent: WebDriver helpers</name>
   <packaging>pom</packaging>
 
+  <scm>
+    <connection>scm:git:git://github.com/mikederban/selenium-webdriver-helpers.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mikederban/selenium-webdriver-helpers.git</developerConnection>
+    <url>https://github.com/mikederban/selenium-webdriver-helpers/tree/master</url>
+  </scm>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/mikederban/selenium-webdriver-helpers/blob/master/LICENSE</url>
+      <distribution>May be downloaded from the Maven repository</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Mike Derban</name>
+      <email>mike.derban@gmail.com</email>
+      <organization>Derban IT Consulting Inc.</organization>
+      <organizationUrl>https://github.com/mikederbany</organizationUrl>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 
   <modules>
     <module>webdriver-utils</module>
@@ -29,6 +63,19 @@
     <pluginManagement>
       <!-- Lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+
+        <plugin>
+          <groupId>org.sonatype.plugins</groupId>
+          <artifactId>nexus-staging-maven-plugin</artifactId>
+          <version>1.6.7</version>
+          <extensions>true</extensions>
+          <configuration>
+            <serverId>ossrh</serverId>
+            <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+          </configuration>
+        </plugin>
+
         <!-- Clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
