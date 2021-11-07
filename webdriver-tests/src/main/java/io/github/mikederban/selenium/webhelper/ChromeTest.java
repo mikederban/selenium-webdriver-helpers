@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
  * @author Mike Derban
  * @since 2021-11-06
  */
-final class ChromeTest {
+public final class ChromeTest {
 
   private ChromeTest() {}
 

@@ -1,7 +1,6 @@
 package io.github.mikederban.selenium.webhelper;
 
 import org.assertj.core.api.AssertionsForClassTypes;
-import io.github.mikederban.selenium.webhelper.EdgeDriverHelper;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -10,7 +9,7 @@ import org.openqa.selenium.WebDriver;
  * @author Mike Derban
  * @since 2021-11-06
  */
-final class EdgeTest {
+public final class EdgeTest {
 
   private EdgeTest() {}
 
