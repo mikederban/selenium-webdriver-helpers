@@ -1,11 +1,12 @@
 package io.github.mikederban.selenium.webhelper;
 
 import java.util.Locale;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 /** Helper class to check the operating system this Java VM runs in. */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class OSCheck {
-
-  private OSCheck() {}
 
   /**
    * Detect the operating system from the os.name System property and cache the result.

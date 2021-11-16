@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.atomic.AtomicBoolean;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,11 +16,10 @@ import org.slf4j.LoggerFactory;
  * @author Mike Derban
  * @since 2021-11-06
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class WindowsProcessTerminator {
 
   private static final Logger LOGGER = LoggerFactory.getLogger(WindowsProcessTerminator.class);
-
-  private WindowsProcessTerminator() {}
 
   /**
    * Checks if the process is running.

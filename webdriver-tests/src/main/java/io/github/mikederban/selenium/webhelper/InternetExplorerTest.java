@@ -1,5 +1,7 @@
 package io.github.mikederban.selenium.webhelper;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.assertj.core.api.AssertionsForClassTypes;
 import org.openqa.selenium.WebDriver;
 
@@ -9,9 +11,8 @@ import org.openqa.selenium.WebDriver;
  * @author Mike Derban
  * @since 2021-11-06
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class InternetExplorerTest {
-
-  private InternetExplorerTest() {}
 
   public static void main(String... args) {
     // Using default constructor.
