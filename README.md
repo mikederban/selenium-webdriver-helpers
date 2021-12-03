@@ -21,7 +21,7 @@ specify which version to use, or go with the default version, which is the lates
 <dependency>
   <groupId>io.github.mikederban.selenium.webhelper</groupId>
   <artifactId>webdriver-chrome</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
@@ -37,7 +37,7 @@ WebDriver driver = chromeDriver.getDriver();
 <dependency>
   <groupId>io.github.mikederban.selenium.webhelper</groupId>
   <artifactId>webdriver-edge</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
@@ -53,7 +53,7 @@ WebDriver driver = edgeDriver.getDriver();
 <dependency>
   <groupId>io.github.mikederban.selenium.webhelper</groupId>
   <artifactId>webdriver-ie</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 

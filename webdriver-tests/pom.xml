@@ -7,7 +7,7 @@
   <parent>
     <artifactId>webdriver-helpers</artifactId>
     <groupId>io.github.mikederban.selenium.webhelper</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
 
   <artifactId>webdriver-tests</artifactId>
@@ -24,19 +24,19 @@
     <dependency>
       <groupId>io.github.mikederban.selenium.webhelper</groupId>
       <artifactId>webdriver-chrome</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
 
     <dependency>
       <groupId>io.github.mikederban.selenium.webhelper</groupId>
       <artifactId>webdriver-edge</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
 
     <dependency>
       <groupId>io.github.mikederban.selenium.webhelper</groupId>
       <artifactId>webdriver-ie</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
 
   </dependencies>

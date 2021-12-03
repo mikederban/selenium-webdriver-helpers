@@ -7,11 +7,11 @@
   <parent>
     <artifactId>webdriver-helpers</artifactId>
     <groupId>io.github.mikederban.selenium.webhelper</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
 
   <artifactId>webdriver-ie</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <dependencies>
 
